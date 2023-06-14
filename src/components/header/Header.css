@@ -1,0 +1,44 @@
+.header {
+    margin: 0 2.5rem;
+    padding: .5rem 0;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    z-index: 30;
+    justify-content:space-between;
+}
+
+.headerLeft, .headerRight {
+    display: flex;
+    align-items: center;
+
+}
+
+button,a > span{
+    margin: 0 30px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover{
+    color: #2563eb;
+}
+
+a > span:hover {
+    color: #2563eb;
+}
+
+.header__icon {
+    width: 35px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+.user__avatar {
+    font-size: 2rem;
+}
+

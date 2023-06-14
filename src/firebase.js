@@ -3,13 +3,7 @@ import { getFirestore, collection, addDoc, where, doc, query, getDocs, setDoc } 
 import 'firebase/compat/auth';
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDxXkHhKpstFS03fyrLFLTBaStD79SNi28",
-    authDomain: "knowledge-management-62e4f.firebaseapp.com",
-    projectId: "knowledge-management-62e4f",
-    storageBucket: "knowledge-management-62e4f.appspot.com",
-    messagingSenderId: "13340980131",
-    appId: "1:13340980131:web:4f65ba2285c768a1e12016",
-    measurementId: "G-P57BHNW19H"
+    //your firebase app config
   };
   
   export const app=firebase.initializeApp(firebaseConfig);
